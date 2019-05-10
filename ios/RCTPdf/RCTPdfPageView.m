@@ -110,8 +110,6 @@
             
             CGContextDrawPDFPage(context, pdfPage);
             CGContextRestoreGState(context);
-            
-            RLog(@"drawpage %d", _page);
         }
 
     }
