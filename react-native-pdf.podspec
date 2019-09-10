@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author         = package['author']['name']
   s.license        = package['license']
   s.homepage       = package['homepage']
-  s.source         = { :git => 'https://github.com/boliveira/react-native-pdf.git', :branch => "migrate_version_5_0_12" }
+  s.source         = { :git => 'https://github.com/finantechsa/react-native-pdf.git', :branch => "migrate_version_5_0_12" }
   s.requires_arc   = true
   s.platform       = :ios, '8.0'
   s.source_files   = 'ios/**/*.{h,m}'
